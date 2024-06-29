@@ -1,0 +1,25 @@
+Explicação do Código:
+Cabeçalho (Header):
+
+  Contém o título do portfólio e um menu de navegação com links para as seções 
+  "Sobre Mim", "Projetos" e "Contato".
+
+Seção "Sobre Mim":
+
+  Apresenta uma breve introdução sobre você, incluindo seu nome e uma descrição do 
+  seu perfil profissional.
+
+Seção "Projetos":
+
+  Lista alguns dos seus projetos com links para vê-los (os links são apenas exemplos, 
+  você deve substituí-los pelos links reais dos seus projetos).
+
+Seção "Contato":
+
+  Informa um meio de contato, como um endereço de e-mail.
+  
+Rodapé (Footer):
+
+  Contém uma mensagem de direitos autorais.
+  Esse projeto básico pode ser expandido com CSS e JavaScript para adicionar 
+  mais estilo e funcionalidades interativas, mas a estrutura HTML fornecida serve como um bom ponto de partida.

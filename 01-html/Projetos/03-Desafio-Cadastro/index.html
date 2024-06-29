@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro e Listagem de Produtos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Container do formulário de cadastro -->
+      <div id="form-container">
+        <h2>Cadastrar Produto</h2>
+        <form id="product-form">
+          <label for="product-name">Nome do produto:</label>
+          <input type="text" id="product-name" required />
+
+          <label for="product-description">Descrição do produto:</label>
+          <textarea id="product-description" required></textarea>
+
+          <label for="product-price">Valor do produto:</label>
+          <input type="number" id="product-price" required />
+
+          <label>Disponível para venda:</label>
+          <label>
+            <input type="radio" name="available" value="sim" required /> Sim
+          </label>
+          <label>
+            <input type="radio" name="available" value="não" required /> Não
+          </label>
+
+          <button type="submit">Cadastrar Produto</button>
+        </form>
+      </div>
+
+      <!-- Container da listagem de produtos -->
+      <div id="list-container" class="hidden">
+        <h2>Listagem de Produtos</h2>
+        <button id="show-form">Cadastrar Novo Produto</button>
+        <table>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody id="product-list"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

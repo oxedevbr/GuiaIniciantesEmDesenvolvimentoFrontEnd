@@ -1,0 +1,12 @@
+/* Estilizando o cabeçalho h1 */
+h1 {
+  text-align: center; /* Alinha o texto ao centro */
+  margin-bottom: 20px; /* Margem inferior de 20 pixels */
+}
+
+/* Estilizando o fundo roxo com hexadecimal */
+.hexadecimal-example {
+  background-color: #8844ee; /* Define o fundo roxo com hexadecimal */
+  color: #000000; /* Define a cor do texto como preto */
+  padding: 20px; /* Preenchimento interno de 20 pixels */
+}

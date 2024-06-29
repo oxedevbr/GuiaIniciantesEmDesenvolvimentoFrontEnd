@@ -1,0 +1,26 @@
+a{
+  text-decoration: none;
+  color: blueviolet;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+.destaque {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+#cabecalho {
+  text-align: center;
+  background-color: #f0f0f0;
+} 
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+

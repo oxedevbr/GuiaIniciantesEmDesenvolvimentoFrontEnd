@@ -1,0 +1,19 @@
+HTML
+<!DOCTYPE html>: Define o tipo de documento como HTML5.
+
+<html lang="en">: Define o idioma do documento como inglês.
+<head>: Contém metadados e informações do documento.
+<meta charset="UTF-8">: Especifica a codificação de caracteres como UTF-8.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Configura a viewport para dispositivos móveis.
+<title>Seletores, Classes e IDs em CSS</title>: Define o título da página.
+<link rel="stylesheet" href="styles.css">: Vincula o arquivo CSS externo styles.css ao documento HTML.
+CSS:
+
+/_ Estilizando o cabeçalho _/: Comentário explicando a seção de estilo para o cabeçalho.
+#cabecalho { ... }: Estilos aplicados à div com ID cabecalho.
+/_ Estilizando parágrafos _/: Comentário explicando a seção de estilo para parágrafos.
+p { ... }: Estilos aplicados a todos os elementos <p> (parágrafos) no documento.
+/_ Estilizando parágrafos com a classe 'destaque' _/: Comentário explicando a seção de estilo para parágrafos com a classe destaque.
+.destaque { ... }: Estilos aplicados a elementos com a classe destaque.
+/_ Estilizando input de texto _/: Comentário explicando a seção de estilo para inputs de texto.
+input[type="text"] { ... }: Estilos aplicados a inputs do tipo texto (<input type="text">).

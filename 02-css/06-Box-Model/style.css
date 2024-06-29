@@ -1,0 +1,26 @@
+/* Estilizando o cabeçalho */
+#cabecalho {
+  text-align: center; /* Alinha o texto ao centro */
+  background-color: #f0f0f0; /* Fundo cinza claro */
+  padding: 10px; /* Espaçamento interno de 10 pixels */
+}
+
+/* Estilizando parágrafos */
+p {
+  font-size: 16px; /* Tamanho da fonte 16 pixels */
+  color: #333; /* Cor do texto cinza escuro */
+  margin-bottom: 10px; /* Margem inferior de 10 pixels */
+}
+
+/* Estilizando parágrafos com a classe 'destaque' */
+.destaque {
+  background-color: yellow; /* Fundo amarelo */
+  font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilizando input de texto */
+input[type="text"] {
+  width: 200px; /* Largura fixa de 200 pixels */
+  padding: 5px; /* Preenchimento interno de 5 pixels */
+  border: 1px solid #ccc; /* Borda cinza com 1 pixel de espessura */
+}

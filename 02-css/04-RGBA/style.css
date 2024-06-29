@@ -1,0 +1,23 @@
+/* Estilizando o cabeçalho h1 */
+h1 {
+  text-align: center; /* Alinha o texto ao centro */
+  margin-bottom: 20px; /* Margem inferior de 20 pixels */
+}
+
+/* Estilizando textos com diferentes níveis de opacidade */
+.alpha-example {
+  padding: 10px; /* Preenchimento interno de 10 pixels */
+  margin-bottom: 10px; /* Margem inferior de 10 pixels */
+}
+
+.a1 {
+  color: rgba(0, 0, 0, 0.8); /* Define o texto preto com 80% de opacidade */
+}
+
+.a2 {
+  color: rgba(0, 0, 0, 0.6); /* Define o texto preto com 60% de opacidade */
+}
+
+.a3 {
+  color: rgba(0, 0, 0, 0.4); /* Define o texto preto com 40% de opacidade */
+}

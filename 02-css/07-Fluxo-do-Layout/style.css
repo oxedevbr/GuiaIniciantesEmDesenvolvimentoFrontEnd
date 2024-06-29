@@ -1,0 +1,37 @@
+  /* Estilos CSS */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+  /* Estilos para elementos block */
+  h1, p, div {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+
+  /* Estilos para elementos inline */
+  a, span, strong {
+    padding: 5px;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    margin-right: 10px;
+  }
+
+  /* Estilos para elementos inline-block */
+  .inlineblock {
+    display: inline-block;
+    width: 150px;
+    padding: 8px;
+    background-color: #c0c0c0;
+    border: 1px solid #666;
+    margin-bottom: 10px;
+  }
+
+  /* Ocultar elemento */
+  .esconde {
+    display: none;
+  }

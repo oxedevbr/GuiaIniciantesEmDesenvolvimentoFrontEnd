@@ -1,0 +1,11 @@
+
+Explicação do Código:
+HTML: Estrutura básica com exemplos de elementos <a>, <span>, <strong>, <p>, <div> para demonstrar os diferentes fluxos de layout (inline, block, inline-block) e o efeito de none para ocultar um elemento.
+
+CSS:
+
+Define estilos para <h1>, <p>, <div> como elementos block.
+Define estilos para <a>, <span>, <strong> como elementos inline.
+Define estilos para .inlineblock como elemento inline-block.
+Define um estilo para .esconde com display: none para ocultar o elemento.
+Este exemplo demonstra como os diferentes tipos de elementos (inline, block, inline-block) se comportam no fluxo do layout em HTML e CSS, juntamente com a aplicação de técnicas como none para ocultar elementos e inline-block para elementos que combinam características de inline e block.

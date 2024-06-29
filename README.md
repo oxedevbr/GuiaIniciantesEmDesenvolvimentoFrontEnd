@@ -18,8 +18,8 @@ Este guia é dividido em seções que abrangem desde a construção do seu portf
 
 ## Estrutura do Repositório
 
-- `README.md`: Você está aqui! Visão geral do guia e como utilizá-lo.
-- `Portfolios/`: Exemplos e templates de portfólios para inspiração.
+- `Descrição`: Você está aqui! Visão geral do guia e como utilizá-lo.
+- `Exemplos e Projetos/`: Exemplos e templates de portfólios para inspiração.
 - `Resources/`: Recursos adicionais como ferramentas, artigos e tutoriais recomendados.
 
 ## Contribuição

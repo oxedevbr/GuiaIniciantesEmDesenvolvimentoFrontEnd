@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 200px 1fr;
+  min-height: 100vh;
+}
+header,
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  grid-column: 1 / span 2;
+  padding: 10px 0;
+}
+.sidebar {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.main-content {
+  padding: 20px;
+}
+footer {
+  grid-column: 1 / span 2;
+}

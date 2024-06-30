@@ -1,0 +1,17 @@
+/* Estilo básico para a galeria de imagens */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espaçamento entre as imagens */
+}
+
+.image {
+  flex: 1 1 300px; /* Cresce, mas não encolhe abaixo de 300px */
+  max-width: 100%; /* Para garantir que a imagem não ultrapasse o contêiner */
+}
+
+img {
+  width: 100%; /* Garante que a imagem ocupe toda a largura do contêiner pai */
+  height: auto; /* Mantém a proporção original da imagem */
+  display: block; /* Remove espaço extra abaixo da imagem */
+}
